@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>{{title}}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="/lib/chessboardjs/css/chessboard-1.0.0.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+</head>
+<body>
+  <div class="container">
+    {{{body}}}
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>
+  <script src="/lib/chessboardjs/js/chessboard-1.0.0.min.js"></script>
+  <script src="/js/chess.js"></script>
+  <script src="/js/socketClient.js"></script>
+  </body>
+  </html>
