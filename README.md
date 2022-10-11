@@ -69,7 +69,7 @@ Match is the name of Schema which store the game information, id of user and mov
 <li>moves</b> - It is the array which store id of the moves.</li>
 
 
-<h5>move</h5>
+<h5>moves</h5>
 <li><b>move_id</b> - It is the primary key.</li>
 <li><b>color</b> - It store the color of the move peice.</li>
 <li><b>from</b> - From where the peice has moved.</li>
