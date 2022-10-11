@@ -11,7 +11,7 @@
 <li><b>app->controllers</b> - routes and server-side events</li>
 <li><b>app->models</b> - schema</li>
 <li><b>app->views</b> - template</li>
-<li><b>public</b> - static files like css, images, and js</li>
+<li><b>public</b> - contain static files like css, images, and js</li>
 <li><b>index.js</b> - entry point of the application</li>
 
 ## Technology-
