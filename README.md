@@ -16,7 +16,8 @@
 
   
 
-## Controller
+## Technology-
+```Node.js``` ```Express``` ```MongoDB``` ```HTML``` ```CSS``` ```JS``` 
 
 I have used Node.js in this project because it is perfect for real time communication and in the required chess game we have to update the data in real-time basis.
 I have used socket library for establishing real-time connection. 
@@ -56,9 +57,9 @@ I have used socket library for establishing real-time connection.
 ## Database
 I have used MongoDB because it can handle variety of data and huge amount of data. It offers a MongoDB Node.js Driver which provides a JavaScript API and implements the network protocol required to read and write from a local or remote MongoDB database.
 
-<h5>Database configuration path - <h5> app->config->database.js
+<h4>Database configuration path - </h4> app->config->database.js
 
-<h5>models</h5>
+<h4>Models</h4>
 Models contain the schema document.
 Match is the name of Schema which store the game information, id of user and moves.
 
