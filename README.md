@@ -1,3 +1,4 @@
+# ChessHub
 1. clone the repository
 2. Run npm install
 3. Run npm run start
@@ -12,9 +13,6 @@
 <li><b>app->views</b> - template</li>
 <li><b>public</b> - static files like css, images, and js</li>
 <li><b>index.js</b> - entry point of the application</li>
-
-
-  
 
 ## Technology-
 ```Node.js``` ```Express``` ```MongoDB``` ```HTML``` ```CSS``` ```JS``` 
@@ -62,5 +60,38 @@ I have used MongoDB because it can handle variety of data and huge amount of dat
 <h4>Models</h4>
 Models contain the schema document.
 Match is the name of Schema which store the game information, id of user and moves.
+
+## Entity Relationship Diagram
+![er chess](https://user-images.githubusercontent.com/66358041/195057944-7add42db-b3c2-48f2-a724-9d94f96dda62.png)
+
+<h5>match</h5>
+<li><b>roomId</b> - It is the primary key</li>
+<li>moves</b> - It is the array which store id of the moves.</li>
+
+
+<h5>move</h5>
+<li><b>move_id</b> - It is the primary key.</li>
+<li><b>color</b> - It store the color of the move peice.</li>
+<li><b>from</b> - From where the peice has moved.</li>
+<li><b>to</b> - to which position the peice will move.</li>
+<li><b>peice</b> - It represent the peice type.</li>
+
+
+
+---
+## Work Overview
+### `Landing Page`
+![chrome_EMWd7M29hM](https://user-images.githubusercontent.com/66358041/195047349-64735bdb-6026-4e79-8496-ddf71cb5365e.png)
+
+### `Game request`
+Game request send | receiver's end
+:-------------------------:|:-------------------------:|
+![chrome_DMMoWD7bQo](https://user-images.githubusercontent.com/66358041/195049706-3ede0e6c-367d-4759-a060-0cbeff070592.png) | ![chrome_J0q8DIch3z](https://user-images.githubusercontent.com/66358041/195049743-ca9532af-f06a-451c-96a6-b8085ab7fc35.png)
+
+### `Game Stage`
+![chrome_gtgCePJ0vT](https://user-images.githubusercontent.com/66358041/195050743-17d959f1-e1aa-4d1b-bd10-e33eded43cdb.png)
+
+### `Get moves data`
+![chrome_TWsUkEgpVP](https://user-images.githubusercontent.com/66358041/195052018-5236bf47-ac43-4b71-9da5-cfd5ab27af7f.png)
 
 
